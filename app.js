@@ -49,7 +49,7 @@ app.use(function(req, res, next) {
 });
 
 //DB Connection
-const db = 'mongodb+srv://abhiman:herohere@cluster0-8s4cf.mongodb.net/registration?retryWrites=true&w=majority';
+const db = 'mongodb+srv://abhiman:herohere@cluster0-8s4cf.mongodb.net/tShirt?retryWrites=true&w=majority';
 
 mongoose
   .connect(db, {
